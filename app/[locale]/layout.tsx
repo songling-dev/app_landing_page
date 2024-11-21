@@ -1,4 +1,3 @@
-import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { cn } from "@/utils/cn";
 import '@/assets/styles/globals.css';

@@ -1,4 +1,4 @@
-import { defaultLocale, localePrefix, locales } from "./i18n";
+import { defaultLocale, localePrefix, locales } from "./i18n/request";
 import createMiddleware from "next-intl/middleware";
 
 export default createMiddleware({
@@ -9,6 +9,6 @@ export default createMiddleware({
 
 export const config = {
     matcher: [
-        '/((?!_next|_vercel|api|.*\\..*).*)',
+        '/((?!api|_next/static|_next/image|favicon.ico|apple-touch-icon.png|favicon.svg|images/books|icons|manifest).*)',
     ]
 }

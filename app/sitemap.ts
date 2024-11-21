@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { defaultLocale, locales } from '@/i18n';
+import { defaultLocale, locales } from '@/i18n/request';
 
 const pathnames = ['/'];
 const host = process.env.NEXT_APP_PUBLIC_URL;
